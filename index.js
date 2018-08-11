@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send({ hi: 'changed after first deploy there' });
+  res.send({ hi: 'crazy dance' });
 });
 
 const PORT = process.env.PORT || 5000;
