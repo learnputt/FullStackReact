@@ -1,5 +1,5 @@
 const express = require('express');
-require('./services/passport.js');  //running the passport.js for the strategy
+require('./services/passport');  //running the passport.js for the strategy
 
 
 
